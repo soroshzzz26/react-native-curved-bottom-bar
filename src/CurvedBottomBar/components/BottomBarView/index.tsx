@@ -162,7 +162,7 @@ const BottomBarComponent: (
                     navigate: (selectTab: string) => {
                       if (selectTab !== focusedTab) {
                         navigation.navigate({
-                          name: routeName,
+                          name: selectTab,
                           merge: true,
                         });
                       }
